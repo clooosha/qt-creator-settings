@@ -1,0 +1,36 @@
+Language: Cpp
+Standard: Cpp11
+BasedOnStyle: WebKit
+AlignAfterOpenBracket: Align
+AllowShortFunctionsOnASingleLine: None
+AlwaysBreakTemplateDeclarations: true
+BinPackArguments: true
+BinPackParameters: true
+BreakBeforeBraces: Custom
+BraceWrapping:   
+  AfterClass: true
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+BreakConstructorInitializers: BeforeComma
+ColumnLimit: 100
+Cpp11BracedListStyle: true
+IncludeCategories: 
+  - Regex:           '^<[a-z].*>$'
+    Priority:        3
+  - Regex:           '^<Q[A-Z].*>$'
+    Priority:        2
+  - Regex:           '.*' 
+    Priority:        1
+FixNamespaceComments: true
+NamespaceIndentation: None
+PenaltyReturnTypeOnItsOwnLine: 500
+PointerAlignment: Right
+SpaceAfterTemplateKeyword: false
+SpacesInContainerLiterals: false
